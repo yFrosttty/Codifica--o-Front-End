@@ -21,7 +21,7 @@
                     <figcaption>Bilada</figcaption>
                 </figure>
                 <figure>
-                    <img src="imagens/bob.jpg" alt="">
+                    <img src="imagens/bob.jpg" alt="" onclick="TocarMusica()">
                     <figcaption>Bob Esponja</figcaption>
                 </figure>
                 <figure>
@@ -48,12 +48,17 @@
                     <img src="imagens/vampetasso.webp" alt="">
                     <figcaption>SALVE VARGKKKKKKKKKKKKKKKKKK</figcaption>
                 </figure>
-                <audio autoplay src="spongebob-production-music-twelfth-street-rag-made-with-Voicemod.mp3" loop>
-                    
-                </audio>
             </div>
         </div>
     </main>
 </body>
 
 </html>
+
+<script>
+    function TocarMusica(){
+        var audio1 = new Audio()
+        audio1.src = "spongebob-production-music-twelfth-street-rag-made-with-Voicemod.mp3"
+        audio1.play();
+    }
+</script>
