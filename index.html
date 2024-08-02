@@ -41,7 +41,7 @@
                     <figcaption>Aquele que te come atrás do armario</figcaption>
                 </figure>
                 <figure>
-                    <img src="imagens/te-passas.png" alt="">
+                    <img src="imagens/te-passas.png" alt="" onclick="TocarMusica2()">
                     <figcaption>Aceitas?</figcaption>
                 </figure>
                 <figure>
@@ -60,5 +60,11 @@
         var audio1 = new Audio()
         audio1.src = "spongebob-production-music-twelfth-street-rag-made-with-Voicemod.mp3"
         audio1.play();
+    }
+
+    function TocarMusica2(){
+        var audio2 = new Audio();
+        audio2.src = "Fein.mp3"
+        audio2.play();
     }
 </script>
